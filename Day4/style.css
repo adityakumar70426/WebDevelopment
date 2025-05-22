@@ -1,0 +1,60 @@
+/* Element Selector */
+p{
+    color: rgb(88, 127, 220);
+    font-size: larger;
+    background-color: rgb(232, 232, 172);
+}
+
+/* Class Selector */
+.first{
+    color: blue;
+    background-color: rgb(191, 242, 242);
+}
+
+/* Id Selector */
+#second{
+    color: brown;
+    background-color: bisque;
+}
+
+
+.green{
+    background-color: rgb(125, 250, 117);
+}
+
+#brown{
+    color: brown;
+}
+
+#red{
+    color: rgb(246, 41, 41);
+}
+
+/* Pseudo Selector */
+#brown:hover{
+    background-color: rgb(218, 204, 240);
+}
+
+/* Grouping Selector */
+h5,h6{
+    background-color: aqua;
+}
+
+.box{
+    height: 35px;
+    width: 170px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box; /* Box remains of same size after applying padding */
+}
+#org{
+    background-color: rgb(235, 164, 34);
+}
+#wh{
+    background-color: white;
+}
+#gre{
+    background-color: rgb(6, 170, 6);
+}
