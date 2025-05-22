@@ -1,0 +1,69 @@
+<!-- Forms in HTML -->
+
+<form action="/submit">
+<h2>Please fill this form</h2>
+<table>
+    <tr>
+        <td>
+            <label for="name">Name:</label>
+        </td>
+        <td>
+            <input type="text" id="name">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="name">Designation:</label>
+        </td>
+        <td>
+            <input type="text" id="des">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="mail">E-mail:</label>
+        </td>
+        <td>
+            <input type="email" id="mail">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="manager">Manager:</label>
+        </td>
+        <td>
+            <select name="mymanager" id="manager">
+            <option value="A">Manager 1</option>
+            <option value="B">Manager 2</option>
+            <option value="C">Manager 3</option>
+        </select>
+    </td>
+    </tr>
+    <tr>
+        <td><label for="projectno">Project No. :</label></td>
+        <td><input type="number" id="projectno"></td>
+    </tr>
+    <tr>
+        <td><label for="fte">Full-time Employee:</label></td>
+        <td><input type="checkbox" id="fte"></td>
+    </tr>
+    <tr>
+        <td><label for="gend">gender</label></td>
+        <td><input type="radio" id="gend">Male
+        <input type="radio" id="gend">Female
+        <input type="radio" id="gend">Others</td>
+    </tr>
+    <tr>
+        <td><label for="dt">Date</label></td>
+        <td><input type="date" id="dt"></td>
+    </tr>
+    <tr>
+        <td><label for="textarea"></label></td>
+        <td><textarea id="textarea"></textarea></td>
+    </tr>
+    <tr>
+        <td><button type="submit">Submit</button>
+        <button type="reset">Reset</button></td>
+    </tr>
+</table>
+</form>
