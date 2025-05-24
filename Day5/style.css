@@ -1,0 +1,44 @@
+.box1{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-image: linear-gradient(to bottom right,rgb(245, 146, 48),rgb(246, 245, 245),rgb(76, 173, 38));
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-image: radial-gradient(rgb(245, 146, 48),rgb(246, 245, 245),rgb(76, 173, 38));
+}
+
+.box3{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-image: conic-gradient(rgb(76, 173, 38),hsl(0, 0%, 100%),rgb(229, 173, 43));
+}
+
+h1{
+    text-shadow: 3px 3px rgb(248, 170, 170); /* horizintal vertical blur colour */
+    
+}
+
+.box-shadow{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    box-shadow: -10px -10px 15px black, 10px 10px 20px blueviolet;  /* horizintal vertical blur colour */
+    color: brown;
+}
+
+.maxheight{
+    border: 1px solid black;
+    max-height: 100px;
+    overflow: scroll;
+}
+
+.minheight{
+    border: 1px solid black;
+    min-height: 100px;
+}
