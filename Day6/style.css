@@ -1,0 +1,25 @@
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    background-image: linear-gradient(orange,white,green);
+}
+
+#box1{
+    translate: 10px 15px;
+}
+#box2{
+    rotate: 45deg;
+}
+#box3{
+    scale: 1.2 1.5;
+}
+#box4{
+    transform: skew(30deg,30deg);
+}
+#box5{
+    transform: perspective(10px) translateZ(-10px);
+}
+#box6{
+    transform:perspective(400px) scaleZ(10) rotateY(4deg);
+}
