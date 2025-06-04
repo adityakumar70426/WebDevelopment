@@ -133,3 +133,36 @@ console.log(sixth);
 let message4='My name is Aditya';
 let parts=message4.split(' ');
 console.log(parts);
+
+// sorting array
+//converts to string then sort
+let seventh=[1,6,33,7,4,6,3,10];
+seventh.sort();
+console.log(seventh);
+
+// Filtering
+let eighth=[2,4,8,-3,5,-7,3,-1,3,4];
+let filtering=eighth.filter(function(value){
+    return value>=0;
+});
+console.log(filtering);
+
+// mapping arrays
+let ninth=[3,45,8,3];
+let students=ninth.map(function(value){
+    return 'student_no.: ' + value;
+});
+console.log(students);
+
+// Mapping wu=ith objects
+
+let tenth=[1,-4,6,-2];
+let filtered=tenth.filter(function(value){
+    return value>=0;
+});
+
+let items=filtered.map(function(num){
+    let obj={value:num};
+    return obj;
+});
+console.log(items);
