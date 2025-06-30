@@ -8,9 +8,15 @@ content.setAttribute("style","color:red");
 
 content.setAttribute("id","head");
 
+
+//className
 let d=content.className;
 typeof d;
 
-let e=content.classNames=content.className.split(' ');
-console.log(e);
+let f=content.className.split(' ');
+console.log(f);
+
+//classList return an array of class
+
+
 
