@@ -24,8 +24,9 @@ c.addEventListener('click',function(event){
 
 //prevent Default action
 let link=document.querySelector('a');
-link[0].addEventListener('click',function(aditya){
-    aditya.preventDefault;
+link[0].addEventListener('click',function(event){
+    event.preventDefault();
     console.log('nhi chala');
 });
+
 
